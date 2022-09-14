@@ -1,0 +1,101 @@
+Practical task 2
+1 task
+import math
+a= int(input("Value of a:"))
+b= int(input("Value of b:"))
+h= int(input("Value of h:"))
+S = ((math.pow(a, 2) + b) * h) / (2 * (a-b) + 4)
+print( "The Answer of S: " + format(S))
+
+2 task
+
+import math
+x= int(input("Value of x:"))
+y= int(input("Value of y:"))
+H = (math.sqrt(math.sqrt(math.exp(-x) + math.exp(x)) + math.cos(2 * y) + math.sin(4 * y))) /( math.pow(math.exp(-x) + math.exp(x), 3 ) * (math.pow( math.sin(4 * y) + math.cos(2 * y) - 2, 2 )))
+print( "The Answer of H: " + format(H))
+
+import math
+x= 2
+y= 1
+H = math.pow(math.pow(x , y), x) + math.pow(math.pow(x , y), x) - math.pow(x, 4 )
+print( "The Answer is: " + format(H))
+
+import math
+x= 2
+y= 1
+z= 3
+H = math.fabs(math.cos(y) / math.sin(y) + 6 )
+S = math.pow(H, 1/3) + math.pow(math.pow(x+1 , 3) / (4 *y - 2*z), 1/2)
+print( "The Answer is: " + format(S))
+
+...
+
+3 - task
+
+import math
+a= int(input("Value of a:"))
+b= int(input("Value of b:"))
+S = 1/2 * a * b
+print( "The ared of S: " + format(S))
+
+4 - task
+
+import math
+
+a = float(input("a = "))
+b = float(input("b = "))
+c = float(input("c = "))
+
+discr = b ** 2 - 4 * a * c
+print("Discriminate D = %.2f" % discr)
+
+if discr > 0:
+x1 = (-b + math.sqrt(discr)) / (2 * a)
+x2 = (-b - math.sqrt(discr)) / (2 * a)
+print("x1 = %.2f \n x2 = %.2f" % (x1, x2))
+elif discr == 0:
+x = -b / (2 * a)
+print("x = %.2f" % x)
+else:
+print("Answer is not solving")
+
+5 - task, 1
+
+import math
+
+a = float(input("a = "))
+b = float(input("b = "))
+c = float(input("c = "))
+
+print("Write Perimater of Traingle:")
+P = float(input("P = "))
+
+O = P * (P-a)*(P-b)*(P-c)
+S = math.sqrt(O)
+
+print( "The ared of S: " + format(S))
+
+5 - task, 2
+
+import math
+
+a = float(input("a = "))
+b = float(input("b = "))
+
+
+
+S = a * b
+
+print( "The ared of S: " + format(S))
+
+5 - task, 3
+
+import math
+
+P = 3.14
+r = float(input("b = "))
+
+S = P * math.pow(r, 2 )
+
+print( "The ared of S: " + format(S))

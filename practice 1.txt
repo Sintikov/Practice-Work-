@@ -1,0 +1,64 @@
+Task - 1
+
+print (" Your last name, first name? ")
+
+a = str(input())
+
+print(" Got It!")
+
+print("How old are you?")
+
+b = int(input())
+
+print("Your phone number?")
+
+c = int(input())
+
+print("Thank you")
+
+Task - 2
+
+import math
+
+a = int(input("a  = "))
+
+b = int(input("b = "))
+
+S = a * b
+
+print("The Answer Is:" + format(S))
+
+
+Task - 4
+
+import math
+a = int(input("a  = "))
+
+b = math.pow(a, 2) + 4
+
+c = math.pow(a, 2) + 4
+
+d = math.pow(c, 3)
+
+S = (math.pow(a, 2)/3) + ((math.pow(a,2) + 4)/6) + (math.sqrt(b)/4) + (math.sqrt(d)/4)
+
+print("The Answer Is:" + format(S))
+
+
+Task - 5 
+
+import math
+
+print ("Guess any number."+ "Then multiply the planned number by 5, add 8 and  multiply the sum by 2") 
+
+a = int(input("So write it below:"))
+
+b = a/2
+
+c = b - 8
+
+d = c / 5
+
+print("Your Number Is:" + format(d))
+
+

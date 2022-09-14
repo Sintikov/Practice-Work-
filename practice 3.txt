@@ -1,0 +1,49 @@
+Practice Work 3 
+
+1 - task
+
+a = int(input())
+def is_alive(a):
+if  a==0:
+  print("False")
+elif a<0:
+  print("False")
+else:
+  print("True")
+
+
+2 - task
+
+print("Write your Birth Month in Number:")
+a = int(input())
+if a == 1:
+  print(" White snow fell outside the window ")
+elif a == 2:
+  print(" White snow fell outside the window ")
+elif a ==3:
+    print(" Birds sang beautiful songs ")
+elif a == 4:
+    print(" Birds sang beautiful songs ")
+elif a ==5:
+    print(" Birds sang beautiful songs ")
+elif a==6:
+    print("The sun shone brighter than ever")
+elif a==7:
+    print("The sun shone brighter than ever")
+elif a==8:
+    print("The sun shone brighter than ever")
+elif a==9:
+    print("The harvest was incredible")
+elif a==10:
+    print("The harvest was incredible")
+elif a==11:
+    print("The harvest was incredible")
+elif a==12:
+    print(" White snow fell outside the window ")
+else:
+    print("Write Correctly!")
+
+3 - task
+
+
+    
